@@ -1,0 +1,13 @@
+{
+  "session_id": "banter_test",
+  "relationship_stage": "暧昧期",
+  "intimacy_level": 6,
+  "humor_level": 4,
+  "current_appellation": "你",
+  "user_gender": "男",
+  "target_gender": "女",
+  "messages": [
+    { "speaker": "target", "timestamp": 1730000310, "type": "text", "content": "哎呀，今天出门又忘带伞了，我是不是傻" },
+    { "speaker": "user", "timestamp": 1730000320, "type": "text", "content": "怎么啦？" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "conflict_late",
+  "relationship_stage": "热恋期",
+  "intimacy_level": 8,
+  "humor_level": 3,
+  "current_appellation": "宝宝",
+  "user_gender": "男",
+  "target_gender": "女",
+  "messages": [
+    { "speaker": "target", "timestamp": 1730000300, "type": "text", "content": "你看看现在几点了？说好7点，现在都7点半了！" },
+    { "speaker": "user", "timestamp": 1730000310, "type": "text", "content": "堵车太严重了..." },
+    { "speaker": "target", "timestamp": 1730000320, "type": "text", "content": "每次都找借口，不想来就直说！" }
+  ]
+}

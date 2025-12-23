@@ -1,0 +1,15 @@
+{
+  "session_id": "user123:targetC",
+  "relationship_stage": "熟悉阶段",
+  "intimacy_level": 4,
+  "humor_level": 3,
+  "current_appellation": "你",
+  "user_gender": "男",
+  "target_gender": "女",
+  "messages": [
+    { "speaker": "user", "timestamp": 1730001100, "type": "text", "content": "最近在听谁的歌呀？" },
+    { "speaker": "target", "timestamp": 1730001200, "type": "text", "content": "我最近在循环民谣，陈粒的。旋律很舒服～" },
+    { "speaker": "user", "timestamp": 1730001300, "type": "text", "content": "原来你也喜欢民谣！" }
+  ]
+}
+

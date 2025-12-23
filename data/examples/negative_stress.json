@@ -1,0 +1,13 @@
+{
+  "session_id": "user123:targetE",
+  "relationship_stage": "安抚阶段",
+  "intimacy_level": 3,
+  "humor_level": 2,
+  "current_appellation": "你",
+  "messages": [
+    { "speaker": "target", "timestamp": 1730001700, "type": "text", "content": "今天有点累，被领导说了两句…" },
+    { "speaker": "user", "timestamp": 1730001800, "type": "text", "content": "辛苦啦，想不想说说？" },
+    { "speaker": "target", "timestamp": 1730001900, "type": "text", "content": "算了吧，烦。" }
+  ]
+}
+

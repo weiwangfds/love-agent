@@ -1,0 +1,13 @@
+{
+  "session_id": "user123:targetD",
+  "relationship_stage": "暧昧阶段",
+  "intimacy_level": 6,
+  "humor_level": 3,
+  "current_appellation": "你",
+  "messages": [
+    { "speaker": "user", "timestamp": 1730001400, "type": "text", "content": "周末要不要一起看电影？" },
+    { "speaker": "target", "timestamp": 1730001500, "type": "text", "content": "可以呀，最近有想看的～" },
+    { "speaker": "user", "timestamp": 1730001600, "type": "text", "content": "那我们定个时间？" }
+  ]
+}
+

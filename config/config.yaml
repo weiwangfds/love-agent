@@ -1,0 +1,9 @@
+model:
+  default: qwen-plus
+  fallback: qwen3-max
+kb:
+  path: data/kb/base.json
+chroma:
+  persist_directory: data/chroma
+state:
+  persist_directory: data/state

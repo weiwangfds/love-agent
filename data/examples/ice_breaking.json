@@ -1,0 +1,12 @@
+{
+  "session_id": "user123:targetB",
+  "relationship_stage": "破冰阶段",
+  "intimacy_level": 2,
+  "humor_level": 2,
+  "current_appellation": "你",
+  "messages": [
+    { "speaker": "user", "timestamp": 1730000300, "type": "text", "content": "你好呀～" },
+    { "speaker": "target", "timestamp": 1730000400, "type": "text", "content": "你好哈，我头像是我自己画的，随便涂涂～" }
+  ]
+}
+

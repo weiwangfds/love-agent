@@ -1,0 +1,14 @@
+{
+  "session_id": "user123:targetF",
+  "relationship_stage": "冷场修复",
+  "intimacy_level": 3,
+  "humor_level": 2,
+  "current_appellation": "你",
+  "messages": [
+    { "speaker": "user", "timestamp": 1730002000, "type": "text", "content": "在吗？" },
+    { "speaker": "target", "timestamp": 1730002100, "type": "text", "content": "嗯" },
+    { "speaker": "user", "timestamp": 1730002200, "type": "text", "content": "最近忙吗？" },
+    { "speaker": "target", "timestamp": 1730002300, "type": "text", "content": "挺忙的" }
+  ]
+}
+

@@ -1,0 +1,13 @@
+{
+  "session_id": "user123:targetA",
+  "relationship_stage": "普通聊天",
+  "intimacy_level": 4,
+  "humor_level": 3,
+  "current_appellation": "你",
+  "messages": [
+    { "speaker": "target", "timestamp": 1730000000, "type": "text", "content": "今天心情有点糟" },
+    { "speaker": "user", "timestamp": 1730000100, "type": "text", "content": "怎么啦？" },
+    { "speaker": "target", "timestamp": 1730000200, "type": "text", "content": "工作有点烦" }
+  ]
+}
+

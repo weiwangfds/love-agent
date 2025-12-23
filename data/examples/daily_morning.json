@@ -1,0 +1,12 @@
+{
+  "session_id": "daily_morning",
+  "relationship_stage": "暧昧期",
+  "intimacy_level": 5,
+  "humor_level": 4,
+  "current_appellation": "大懒猪",
+  "user_gender": "女",
+  "target_gender": "男",
+  "messages": [
+    { "speaker": "target", "timestamp": 1730000300, "type": "text", "content": "早啊，昨晚睡得好沉，梦见被你追着打。" }
+  ]
+}
