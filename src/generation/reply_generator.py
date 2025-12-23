@@ -28,6 +28,7 @@ class ReplyGenerator:
         target_gender: str = "未知",
         topic_management: Dict[str, Any] | None = None,
         boundary_assessment: Dict[str, Any] | None = None,
+        continuation_assessment: Dict[str, Any] | None = None,
         action_guide: Dict[str, Any] | None = None,
         user_facts: List[str] | None = None,
         temperature: float = 0.8,
@@ -60,6 +61,7 @@ class ReplyGenerator:
         kb_materials = str(kb_context or {})
         topic_management_str = str(topic_management or {})
         boundary_assessment_str = str(boundary_assessment or {})
+        continuation_assessment_str = str(continuation_assessment or {})
         action_guide_str = str(action_guide or {})
         facts_str = str(user_facts or [])
         
@@ -80,6 +82,7 @@ class ReplyGenerator:
             .replace("{target_gender}", str(target_gender))
             .replace("{topic_management}", topic_management_str)
             .replace("{boundary_assessment}", boundary_assessment_str)
+            .replace("{continuation_assessment}", continuation_assessment_str)
             .replace("{action_guide}", action_guide_str)
             .replace("{user_facts}", facts_str)
         )

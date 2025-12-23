@@ -522,6 +522,7 @@ class LoveAgent:
         boundary_assessment = planner_out.get("boundary_assessment") or {}
         app_update = planner_out.get("appellation_update") or {}
         action_guide = planner_out.get("action_guide") or {}
+        continuation_assessment = planner_out.get("continuation_assessment") or {}
         
         if app_update.get("should_update"):
             current_appellation = app_update.get("new_appellation") or current_appellation
@@ -535,7 +536,6 @@ class LoveAgent:
             if emotion_label == "negative" and not is_retry:
                 # First attempt for negative emotion uses EmpathyEngine
                 import functools
-                print(f"DEBUG: Calling EmpathyEngine with persona keys: {list(persona_res.keys()) if persona_res else 'None'}, facts count: {len(relevant_facts) if relevant_facts else 0}")
                 aid = await loop.run_in_executor(None, functools.partial(
                     self._empathy.generate,
                     target_message=latest_text,
@@ -576,6 +576,7 @@ class LoveAgent:
                     "target_gender": target_gender,
                     "topic_management": topic_management,
                     "boundary_assessment": boundary_assessment,
+                    "continuation_assessment": continuation_assessment,
                     "action_guide": action_guide,
                     "user_facts": relevant_facts,
                 }
@@ -614,6 +615,7 @@ class LoveAgent:
                 "radar": radar_data,
                 "overall_analysis": overall_analysis,
                 "action_guide": action_guide,
+                "continuation_assessment": continuation_assessment,
             },
         }
         return ret

@@ -89,6 +89,9 @@ STRATEGY_PLANNING_PROMPT = """
 8. 关键时刻行动指南 (Critical Action Guide):
    - 识别关键节点：当检测到关系到达临界点（如暧昧期巅峰、情绪极佳时的邀约窗口、或冷战后的破冰窗口）时，必须给出明确行动建议。
    - 生成行动卡片：包含行动类型、具体话术、预测成功率。
+9. 结束对话判断 (Conversation Continuation Assessment):
+   - 判断当前是否应该结束对话（如：时间太晚、话题耗尽、对方反应冷淡、或目标达成）。
+   - 若建议结束，请给出优雅的结束方式（如：晚安、留悬念、自然退场）。
 
 请以JSON格式返回：
 {
@@ -98,6 +101,11 @@ STRATEGY_PLANNING_PROMPT = """
         "rejection_method": "拒绝方式（如：幽默推脱/温柔坚定/转移话题）",
         "is_unknown_topic": true/false,
         "unknown_handling": "未知处理方式（如：真诚提问/赞美对方专业/模糊回应）"
+    },
+    "continuation_assessment": {
+        "should_end": true/false,
+        "reason": "结束理由（如：深夜、话题枯竭、对方疲惫）",
+        "ending_strategy": "结束策略（如：Goodnight, Leave Hook, Polite Exit）"
     },
     "topic_assessment": {
         "status": "active/stale/awkward",
@@ -347,6 +355,7 @@ REPLY_COMPOSITION_PROMPT = """
 语言风格：{language_style} (幽默度: {humor_level}/5)
 话题管理：{topic_management}
 边界判断：{boundary_assessment}
+续聊判断：{continuation_assessment}
 关键行动指南：{action_guide}
 
 【参考资料】

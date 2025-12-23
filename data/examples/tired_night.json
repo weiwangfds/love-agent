@@ -1,0 +1,13 @@
+{
+  "session_id": "test_continuation",
+  "relationship_stage": "暧昧期",
+  "intimacy_level": 5,
+  "humor_level": 3,
+  "current_appellation": "你",
+  "messages": [
+    { "speaker": "user", "timestamp": 1730040000, "type": "text", "content": "今天聊得好开心" },
+    { "speaker": "target", "timestamp": 1730040060, "type": "text", "content": "是啊，不过我看时间不早了，眼睛都睁不开了" },
+    { "speaker": "user", "timestamp": 1730040120, "type": "text", "content": "这么快就困啦？" },
+    { "speaker": "target", "timestamp": 1730040180, "type": "text", "content": "嗯嗯，明天还要早起搬砖呢，哈欠~" }
+  ]
+}
